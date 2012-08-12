@@ -44,7 +44,7 @@ Returns the `Texture` constructor when provided a gl context.
 ### Texture.fromImage(image[, options], ready)
 
 Static method that accepts a `HTMLCanvas` or `Image` element,
-as well as optional [options](#Options) object and a node-style
+as well as optional [options](#options) object and a node-style
 `ready` callback (`function(err, texture instance) {}`).
 
 Dimensions are pulled from the incoming element.
@@ -68,7 +68,7 @@ Otherwise follows the `fromImage` API.
 
 ### Texture.create(dimensions, color[, options], ready)
 
-Static method that accepts a set of integer dimensions `[width, height]`, a color -- either `null` for empty textures or `[red, green, blue, alpha]` floating point values, an optional [options](#Options) object, and a node-style callback.
+Static method that accepts a set of integer dimensions `[width, height]`, a color -- either `null` for empty textures or `[red, green, blue, alpha]` floating point values, an optional [options](#options) object, and a node-style callback.
 
 ### Texture#handle() -> WebGL texture handle
 
